@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledBackground = styled.div`
-  height: 600px;
+  height: 100vh;
   width: 100vw;
   background-color: ${(props) => props.theme.colors.paleBlue};
   display: flex;
