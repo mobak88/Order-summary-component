@@ -1,8 +1,16 @@
+import GlobalStyle from './GlobalStyles';
+import Theme from './Theme';
+import Card from './components/Card';
+import Background from './components/Background';
+
 function App() {
   return (
-    <div className='App'>
-      <h1>Helo World</h1>
-    </div>
+    <Theme>
+      <GlobalStyle />
+      <Background>
+        <Card />
+      </Background>
+    </Theme>
   );
 }
 
