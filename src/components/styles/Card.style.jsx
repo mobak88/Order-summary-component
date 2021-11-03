@@ -12,7 +12,7 @@ export const StyledCard = styled.div`
 `;
 
 export const StyledCardImage = styled.div`
-  background-image: url('src/assets/illustration-hero.svg');
+  background-image: url('/src/assets/illustration-hero.svg');
   height: 200px;
   width: 100%;
   border-radius: 20px 20px 0 0;

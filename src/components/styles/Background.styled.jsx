@@ -8,7 +8,7 @@ const StyledBackground = styled.div`
   align-items: center;
 
   @media (min-width: 1440px) {
-    background-image: url('src/assets/pattern-background-desktop.svg');
+    background-image: url('/src/assets/pattern-background-desktop.svg');
   }
   background-repeat: no-repeat;
   background-color: ${(props) => props.theme.colors.paleBlue};
