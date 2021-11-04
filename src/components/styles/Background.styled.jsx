@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const StyledBackground = styled.div`
   padding: 80px 0;
+  height: 100vh;
   background-color: ${(props) => props.theme.colors.paleBlue};
   display: flex;
   justify-content: center;
